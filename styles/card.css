@@ -1,0 +1,73 @@
+@charset "UTF-08";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 80vw;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+    background-color: var(--background-secundario);
+    padding: 20px;
+}
+
+.card__subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: var(--destaque);
+}
+
+.card__titulo {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    color: var(--fonte);
+}
+
+.card__img {
+    width: 20%;
+}
+
+.card__nome {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: var(--fonte);
+}
+
+.card__funcao {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: var(--fonte-itens);
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .card {
+        width: 75vw;
+    }
+
+    .card__titulo {
+        font-size: 36px;
+    }
+
+    .card__img {
+        width: 10%;
+    }
+
+}
